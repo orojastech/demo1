@@ -19,7 +19,6 @@ WORKDIR /app
 RUN npm run test
 
 FROM scratch as export-test-results
-WORKDIR /app
 COPY --from=test /app/reports .
 
 FROM builderpj AS finish
