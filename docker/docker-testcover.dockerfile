@@ -11,7 +11,7 @@ RUN apk add unzip
 RUN apk add musl
 
 WORKDIR /app
-COPY --from=builder /node_modules ./node_modules
+COPY --from=builder /app/node_modules ./node_modules
 COPY ./ ./
 
 FROM builderpj AS test
