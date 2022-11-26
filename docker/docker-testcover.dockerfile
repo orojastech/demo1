@@ -19,7 +19,7 @@ WORKDIR /app
 RUN npm run test
 
 FROM scratch as export-test-results
-COPY --from=test /app/reports ./test-report.xml ./
+COPY --from=test /app/test-report.xml ./
 
 FROM builderpj AS finish
 ENTRYPOINT npm -v
