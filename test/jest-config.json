@@ -10,5 +10,6 @@
   "collectCoverageFrom": [
     "./src/**"
   ],
-  "coverageDirectory": "./reports/coverage"
+  "coverageDirectory": "./reports/coverage",
+  "testResultsProcessor": "jest-sonar-reporter"
 }
