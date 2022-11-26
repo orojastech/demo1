@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\Demos\NODEJS\demo1\test\controller.unit-test.spec.ts">
+    <testCase name="Controller Get Product Controller" duration="11"/>
+  </file>
+  <file path="D:\Demos\NODEJS\demo1\test\service.unit-test.spec.ts">
+    <testCase name="Service Get demo" duration="6"/>
+    <testCase name="Service Get Product" duration="5"/>
+    <testCase name="Service Get Albums By User Id" duration="390"/>
+    <testCase name="Service Get Albums Mock Axios" duration="3"/>
+    <testCase name="Service Get Albums Mock Axios Repository" duration="2"/>
+  </file>
+  <file path="D:\Demos\NODEJS\demo1\test\app.e2e.spec.ts">
+    <testCase name="Get Endpoints should be defined" duration="519"/>
+    <testCase name="Get Endpoints should get a message demo" duration="59"/>
+    <testCase name="Get Endpoints should create a new album" duration="48"/>
+  </file>
+</testExecutions>
